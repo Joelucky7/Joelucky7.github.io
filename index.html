@@ -3,9 +3,73 @@
 
 <head>
     <style>
-       .hover{
-        background-color: lightblue;
+        .tittle-pic{
+            margin-left: 120px;
+           width: 100%;
+               flex-flow: row wrap;
+            display: flex;
         }
+        .h-hours{
+            margin-left: 45%;
+        }
+        .title{
+            font-size: 50px;
+        }
+        .purpose{
+            
+        }
+        
+        .pic{
+            width:400px;
+            height: 400px;
+        }
+            
+          
+
+        }
+        .top-paragraph{
+           
+            
+        
+            
+           
+        }
+       
+        .hours{
+            margin-left: 45%;
+            float:inherit;
+            margin-bottom: 150px;
+        }
+       
+        
+        }
+        #middle{
+    
+        
+        }
+        
+        #top-row{
+             
+            display:inline-flex;
+            flex-flow: row wrap;
+        
+        }
+        
+        { 
+        box-sizing: border-box;
+        }
+        
+      
+        .hover{
+            display: flex;
+            justify-content: space-around;
+            margin-top: -130px;
+            font-size: 18px;
+            
+            
+            
+        }
+        
         .blue-back{
             background-color: deepskyblue;
             
@@ -27,6 +91,7 @@
             max-width: 960px;
             Margin: 0 auto;
             font-family: fantasy;
+        white-space:normal;
         }
         
         #bottomparagrpah {
@@ -39,6 +104,7 @@
         section {
             padding: 1px;
             margin-bottom: 10px;
+            font-feature-settings: 10px;
         }
     }
     h2 {
@@ -47,10 +113,7 @@
         font-weight: bold;
         text-decoration: underline;
     }
-    h2 {
-        color: #00e200;
-    }
-    h3 {
+    h2, h3 {
         color: #00e200;
     }
     body {
@@ -58,6 +121,7 @@
     }
     p {
         font-family: arial, monospace;
+        font-size: 15px;
     }
     h1 {
         font-family: Georgia,Times,serif;
@@ -70,17 +134,17 @@
         }
     </style>
     <meta charset="utf-8">
-    <title>Dry Oar Boating Home Page</title>
+    <title> Dry Oar Boating Home Page</title>
 </head>
 
 <body>
 
     <div class="content">
 
-        <h1>Dry Oar Boating</h1>
+        <h1 class="title"> Dry Oar Boating</h1>
         <img src="http://brothert.net/dryoar/images/dryoarlogo.png" alt="Dry Oar boating logo">
         <nav>
-            <ul clas="hover">
+            <ul class="hover">
                 <li><a href=index.html> Home </a></li>
                 <li><a href=index.html> Schedual </a></li>
                 <li><a href=index.html> Rivers </a></li>
@@ -90,8 +154,11 @@
         </nav>
 
 
-        <section>
-            <h2>Our Goal </h2>
+        <section id="middle">
+            <img class="tittle-pic" src=http://i.huffpost.com/gen/1361737/images/n-FLOATING-LANTERN-CEREMONY-628x314.jpg alt="tittle-img">
+            <h2 class="hours"> Our Goal </h2>
+        </section>
+        <section class="top-paragraph">
             <p> <strong>We believe</strong> that there is nothing gets better then
                 <br> a river trip to get away from the busy world.
                 <br> That is why we subscribe to the dry oar philosophy
@@ -100,8 +167,11 @@
                 <br> the rivers we love. </p>
         </section>
 
-        <section>
-            <h2>Purpose:</h2>
+        <section id="top-row">
+            
+            <h2 class="purpose"> Purpose:</h2>
+            
+            
             <p>White Water Rafting! Our process is <strong>simple</strong> pre pay online
                 <br> or on your phone bring the barcode, we scan it and boom,
                 <br> you’re in. This place is full of adventures, splashes that
@@ -113,18 +183,18 @@
                 <br> they know where their kids are at all times here rafting if wanted.
                 <br> This is a safe and fun place to meet new people, learn how to water
                 <br> raft, or even have a get together with the family. All are invited.
-                <br> Pre pay today for our summer get away sale going on now!</p> <img src="http://brothert.net/dryoar/images/deso-boats.jpg" alt="Dry Oar Home page pic">
+                <br> Pre pay today for our summer get away sale going on now!</p> <img class="pic" src="http://brothert.net/dryoar/images/deso-boats.jpg" alt="Dry Oar Home page pic">
         </section>
-
-        <h2>Hours </h2>
+        
+        <h2 class="h-hours"> Hours </h2>
         <p class="green-back"> Monday-Saturday 8am- 7pm </p>
         <p class="closed-red"> Closed:                                Sundays</p>
         <p class="blue-back"> Contact information:                  208- 543-2212 </p>
 
+            <section id="top-row">
+        <img class="pic" src="http://www.tyrol.tl/images/cms/1254983241D_Imst5.jpg" alt="Having fun in the raft">
 
-        <img src="http://www.tyrol.tl/images/cms/1254983241D_Imst5.jpg" alt="Having fun in the raft">
-
-        <section>
+        
             <h3>Rivers &amp; Rapids:</h3>
             <p>That doesn't mean we don't also like rapids. Opposites in all
                 <br> things after all. <strong>We believe</strong> that that tenseness that comes
@@ -132,12 +202,12 @@
                 <br> waves makes you appreciate the calm beautiful water that
                 <br> always follows even more. </p>
         </section>
-        <section class="bottomparagraph">
+        <section class="bottomparagraph" id="top-row">
             <h3>Invitation </h3>
             <p>We <strong>invite</strong> you to come relax with us on one of the amazing rivers
                 <br> we visit. Check out our trips and let us know which one best suits
                 <br> you. We're waiting to hear from you! </p>
-            <img id="happy-rafting" src="http://www.smokymountainrafting.com/blog/wp-content/uploads/2014/12/People-having-fun-white-water-rafting.jpg" alt="Invitation picture">
+            <img class="pic" id="happy-rafting" src="http://www.smokymountainrafting.com/blog/wp-content/uploads/2014/12/People-having-fun-white-water-rafting.jpg" alt="Invitation picture">
     
         </section>
         <section class="logos">
