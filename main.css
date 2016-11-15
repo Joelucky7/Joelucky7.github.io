@@ -1,0 +1,140 @@
+a{
+    color:darkblue;
+    text-decoration: none;
+}
+
+nav , .tittle-pic {
+    position: relative;
+}
+nav a:link, nav a:visited{
+    
+}
+nav a:hover{
+    color:crimson;
+    background-color: darkmagenta;
+        
+}
+
+.logo{
+    margin-top:-40px
+}
+.tittle-pic {
+            margin-left: 120px;
+            width: 100%;
+            flex-flow: row wrap;
+            display: flex;
+        }
+        
+        .h-hours {
+            margin-left: 45%;
+        }
+        
+        .title {
+            font-size: 50px;
+            margin-left: ;
+            flex-flow: row wrap;
+             
+        }
+        
+        .purpose {}
+        
+        .pic {
+            width: 400px;
+            height: 400px;
+        }
+    }
+    .top-paragraph {
+        
+        }
+    .hours {
+        margin-left: 45%;
+        float: inherit;
+        margin-bottom: 150px;
+    }
+}
+#middle {}
+#top-row {
+    display:inline-flex;
+    flex-flow: row wrap;
+}
+
+.hover {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top:-30px;
+    font-size: 18px;
+    background-color: cyan;
+    margin-left: 100px;
+    float:
+    
+}
+ul{
+    list-style-type: none;
+}
+.blue-back {
+    background-color: deepskyblue;
+}
+.green-back {
+    background-color: limegreen;
+}
+.closed-red {
+    background-color: red;
+    color:white;
+    border-color: 5px,
+    black;
+}
+.happy-rafting {
+    width: auto;
+}
+.content {
+    width: 80%;
+    max-width: 960px;
+    Margin: 0 auto;
+    font-family: fantasy;
+    white-space:normal;
+}
+#bottomparagrpah {
+    width: 80%;
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: fantasy;
+}
+section {
+    padding: 1px;
+    margin-bottom: 10px;
+    font-feature-settings: 10px;
+}
+
+}
+h2 {
+    outline-color: aqua;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+h2,
+h3 {
+    color: #00e200;
+}
+body {
+    background-color: #6b62ff;
+}
+p {
+    font-family: arial,
+    monospace;
+    font-size: 15px;
+}
+h1 {
+    font-family: Georgia,
+    Times,
+    serif;
+}
+ul {
+    color: aquamarine;
+}
+.logos {}
+    
+header {
+    position:relative;
+}
