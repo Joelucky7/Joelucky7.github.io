@@ -17,8 +17,10 @@ nav a:hover{
 }
 
 .logo{
+/*
     margin-top:-40px;
     margin-bottom: -40px;
+*/
     background-color: azure;
     background-image: transparent;
 }
@@ -70,7 +72,8 @@ nav a:hover{
     font-size: 18px;
     background-color: cyan;
     margin-left: 100px;
-    float:
+    border-top-left-radius: 200px 10px;
+    border-bottom-left-radius: 200px 10px;
     
 }
 ul{
