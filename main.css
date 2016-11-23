@@ -45,7 +45,8 @@ nav a:hover{
     display: inline-flex;
     flex-flow: row wrap;
     display: flex;
-    font-size: 15px;     
+    font-size: 15px;
+          
 }
  
 .river-p{
@@ -60,6 +61,7 @@ nav a:hover{
             width: 400px;
             height: 400px;
             display:flex;
+            padding:
         }
     
     .top-paragraph {
