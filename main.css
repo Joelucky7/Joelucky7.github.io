@@ -1,3 +1,17 @@
+.river-pic{
+           width:120%;
+}
+.top-paragraph1{
+    text-align: center;
+    margin-left:auto;
+    font-stretch: normal;
+    
+}
+.main-salmon{
+    
+width:120%;
+    
+}
 a{
     color:darkblue;
     text-decoration: none;
@@ -67,12 +81,13 @@ nav a:hover{
     .top-paragraph {
         width: 120%;
         margin: 10px auto;
-        font-size: 50px;       
+          
 }
     .hours {
         margin-right: 60%;
-        width: 11%;
+        width: 80%;
         margin: 10px auto;
+        margin-left: 45%;
        
     }
 
