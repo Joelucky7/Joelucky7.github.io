@@ -1,3 +1,12 @@
+.price-2016{
+    align-content: center;
+}
+.this-pg {
+    flex-flow:row wrap;
+    margin-top: -30px;
+    flex:auto;
+    
+}
 .river-pic{
            width:120%;
 }
@@ -67,15 +76,12 @@ nav a:hover{
     display: inline-flex;
     display: flex;
 }
-        .purpose {
-        
-}
-        
+
         .pic {
             width: 400px;
             height: 400px;
             display:flex;
-            padding:
+        
         }
     
     .top-paragraph {
@@ -84,10 +90,10 @@ nav a:hover{
           
 }
     .hours {
-        margin-right: 60%;
+        
         width: 80%;
         margin: 10px auto;
-        margin-left: 45%;
+    
        
     }
 
@@ -139,9 +145,7 @@ ul{
     font-family: fantasy;
     white-space:normal;
 }
-#bottomparagrpah {
-    
-}
+
 section {
     padding: 1px;
     margin-bottom: 10px;
@@ -178,10 +182,7 @@ h1 {
 ul {
     color: aquamarine;
 }
-.logos {
-    
-    
-}
+
     
 header {
     position:relative;
