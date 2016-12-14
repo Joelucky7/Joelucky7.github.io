@@ -1,3 +1,23 @@
+.rate2{
+    width:100%;
+    margin-left:15%;
+    font-size: 25px;
+}
+.price-2016{
+    flex-flow:column;
+    flex: row wrap;
+    
+}
+.rate{
+    width: 100%;
+    margin-left: 45%;
+    font-size: 35px;
+    
+}
+.our{
+    width: 100%;
+    margin-left: 45%;
+}
 .price-2016{
     align-content: center;
 }
@@ -82,23 +102,18 @@ nav a:hover{
             width: 400px;
             height: 400px;
             display:flex;
-        
         }
     
     .top-paragraph {
         width: 120%;
-        margin: 10px auto;
-          
+        margin: 10px auto; 
 }
     .hours {
         
         width: 80%;
         margin: 10px auto;
-    
-       
     }
 
-#middle {}
 #top-row {
     display:inline-flex;
     flex-flow: row wrap;
